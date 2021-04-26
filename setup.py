@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
 import os
+
 from setuptools import find_packages, setup
 
 with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
@@ -15,7 +16,7 @@ setup(
     include_package_data=True,
     install_requires=[
         "beautifulsoup4",
-        "django>=2.2,<3.2"
+        "django>=2.2,<3.3"
     ],
     python_requires=">=3.5",
     license='GPL3',
@@ -30,6 +31,7 @@ setup(
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.0",
         "Framework :: Django :: 3.1",
+        "Framework :: Django :: 3.2",
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',

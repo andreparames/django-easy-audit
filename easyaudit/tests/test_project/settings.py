@@ -124,3 +124,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 DJANGO_EASY_AUDIT_REQUEST_EVENT_LIST_FILTER = ['method', 'datetime', ]
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
